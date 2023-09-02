@@ -84,3 +84,15 @@ header{
     margin-left: 200px;
     font-size: 40px;
 }
+#sobre p{
+    margin-right: 50px;
+    text-align: justify;
+}
+.sobre-titulo{
+    color:#e9009b;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sobre-inf{
+    font-size: 12px;
+}
