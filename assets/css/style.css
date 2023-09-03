@@ -20,7 +20,7 @@ header{
 
 #titulo{
     color: #fff;
-    margin: 70px 0 5px 246px;
+    margin: 80px 0 5px 246px;
     padding: 20px;
 }
 
@@ -64,6 +64,8 @@ header{
     padding-bottom: 0;
 }
 
+/* Sobre mim */
+
 #sobre-mim{
     background-color: #BC96E6;
 }
@@ -84,7 +86,7 @@ header{
     margin-left: 200px;
     font-size: 40px;
 }
-#sobre p{
+#sobre{
     margin-right: 50px;
     text-align: justify;
 }
@@ -92,7 +94,50 @@ header{
     color:#e9009b;
     font-weight: bold;
     font-size: 12px;
+    text-align: center;
 }
 .sobre-inf{
     font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+.sobre-titulo-edu{
+    color:#e9009b;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.sobre-inf-edu{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/* Habilidades */ 
+
+#habilidade{
+    background-image: url(/assets/imagens/download.jpg);
+    background-size: 100%;
+    height: 600px;
+}
+#habilidade-h2{
+    padding: 50px 0 25px 600px;
+    font-size: 40px;
+    color: #fff;
+}
+#habilidade table{
+    margin-left: 400px;
+}
+#habilidade table tr{
+    text-align: center;
+}
+#habilidade table tr td{
+    padding: 15px;
+    background-color: #fff;
+}
+
+/*  Projetos */
+/* Contatos */
+/* Rodapé */
+
