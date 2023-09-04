@@ -59,6 +59,27 @@ header{
     background-color: #00cee9;
 }
 
+#titulo nav ul li:nth-child(1):hover{
+    background-color: #00e91f;
+    width: 200px;
+}
+#titulo nav ul li:nth-child(2):hover{
+    background-color: #2700e9;
+    width: 200px;
+}
+#titulo nav ul li:nth-child(3):hover{
+    background-color: #e9009b;
+    width: 200px;
+}
+#titulo nav ul li:nth-child(4):hover{
+    background-color: #696c6a;
+    width: 200px;
+}
+#titulo nav ul li:nth-child(5):hover{
+    background-color: #00cee9;
+    width: 200px;
+}
+
 #titulo-img{
     margin-bottom: 0;   
     padding-bottom: 0;
@@ -75,19 +96,17 @@ header{
     border-width: 30px; 
     border-style: ridge; 
     border-color:  #45205A;
-}
+}   
 
-#sobre{
-    margin: 30px;
-}
 #sobre h2{
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 200px;
+    margin-left: 230px;
     font-size: 40px;
 }
 #sobre{
-    margin-right: 50px;
+    font-size: 14px;
+    margin: 25px 50px 30px 30px;
     text-align: justify;
 }
 .sobre-titulo{
@@ -134,10 +153,40 @@ header{
 }
 #habilidade table tr td{
     padding: 15px;
-    background-color: #fff;
+    background-color: #D8B4E2;
+    border-radius: 35px;
 }
 
 /*  Projetos */
+#projetos{
+    background-color: #BC96E6;
+    height: 2000px;
+}
+#projetos-titulo{
+    padding: 50px 0 25px 600px;
+    font-size: 40px;
+}
+#projetos-div{
+    display: flex;
+    margin: 30px 0px 30px 155px;
+    background-color: #e9009b;
+    width: 500px;
+
+}
+#projetos-div2{
+    margin-left: 110px;
+    background-color: #e9009b;
+}
+#projetos-div h4{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#projetos-div p{
+   font-size: 13px;
+   text-align: justify;
+   padding: 20px;
+}
+
 /* Contatos */
 /* Rodapé */
 
