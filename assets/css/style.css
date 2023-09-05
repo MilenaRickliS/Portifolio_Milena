@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gloria+Hallelujah&family=Inter:wght@600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Roboto+Slab:wght@500&family=Tilt+Warp&display=swap');
+
 
 *{
     margin: 0;
@@ -159,18 +162,20 @@ header{
 
 /*  Projetos */
 #projetos{
-    background-color: #BC96E6;
-    height: 2000px;
+    background-image: linear-gradient(180deg, #321452, #6C2BB6, #BC96E6, #EADEF7);
+    height: 2100px;
 }
 #projetos-titulo{
     padding: 50px 0 25px 600px;
-    font-size: 40px;
+    font-size: 45px;
+    color: #fff;
 }
 #projetos-div{
     display: flex;
     margin: 30px 0px 30px 155px;
     background-color: #e9009b;
     width: 500px;
+    height: 600px;
 
 }
 #projetos-div2{
@@ -180,13 +185,64 @@ header{
 #projetos-div h4{
     padding-top: 10px;
     padding-left: 20px;
+    font-family: 'Roboto Slab', sans-serif;
 }
 #projetos-div p{
    font-size: 13px;
    text-align: justify;
    padding: 20px;
 }
+#projetos-div a{
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e9009b;
+}
+#projetos-div a:hover{
+    color: #fff;
+    text-shadow:0px 0px 5px #fff;
+    text-decoration: none;
+}
 
 /* Contatos */
+#contato{
+    background-color: #D8B4E2;
+    height: 300px;
+}
+#contato-titulo{
+    padding: 50px 0 25px 650px;
+    font-size: 45px;
+}
+hr{
+    color: #131313;
+    width: 400px;
+    margin-left:540px;
+    border: 2px solid;
+    margin-bottom: 15px;
+}
+#contato p{
+    padding: 6px;   
+    text-align: center;
+    font-size: 11px;
+}
+#contato-links{
+   text-align: center;
+   margin-top: 20px;
+}
+#contato-links a{
+    color: #fff;
+    padding: 10px;
+}
+
+
 /* Rodapé */
+footer{
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
 
