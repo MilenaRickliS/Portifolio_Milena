@@ -148,14 +148,14 @@ header{
     height: 600px;
 }
 #habilidade-h2{
-    /*padding: 50px 0 25px 600px;*/
     text-align: center;
     padding: 50px;
     font-size: 40px;
     color: #fff;
 }
 #habilidade table{
-    margin-left: 500px;
+    text-align: center;
+    margin: 10px auto;
 }
 #habilidade table tr{
     text-align: center;
@@ -190,16 +190,21 @@ header{
 }
 #projetos-div{
     display: flex;
-    margin: 30px 0px 30px 250px;
+    /*margin: 30px 0px 30px 250px;
+    margin: 30px auto;
     text-align: center;
     background-color: #e9009b;
-    width: 500px;
-    height: 600px;
-
+    padding: 10px;
+    width: 1000px;*/
 }
 #projetos-div2{
-    margin-left: 110px;
+    margin: 30px auto;
+    text-align: center;
     background-color: #e9009b;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
 }
 #projetos-div h4{
     padding-top: 10px;
@@ -232,7 +237,6 @@ header{
     height: 300px;
 }
 #contato-titulo{
-    /*padding: 50px 0 25px 650px;*/
     text-align: center;
     padding: 30px;
     font-size: 45px;
@@ -240,7 +244,8 @@ header{
 hr{
     color: #131313;
     width: 400px;
-    margin-left:600px;
+    text-align: center;
+    margin: auto;
     border: 2px solid;
     margin-bottom: 15px;
 }
