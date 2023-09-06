@@ -48,18 +48,23 @@ header{
 
 #titulo nav ul li:nth-child(1){
     background-color: #00e91f;
+    transition: width 500ms;
 }
 #titulo nav ul li:nth-child(2){
     background-color: #2700e9;
+    transition: width 500ms;
 }
 #titulo nav ul li:nth-child(3){
     background-color: #e9009b;
+    transition: width 500ms;
 }
 #titulo nav ul li:nth-child(4){
     background-color: #696c6a;
+    transition: width 500ms;
 }
 #titulo nav ul li:nth-child(5){
     background-color: #00cee9;
+    transition: width 500ms;
 }
 
 #titulo nav ul li:nth-child(1):hover{
@@ -102,9 +107,9 @@ header{
 }   
 
 #sobre h2{
-    margin-top: 20px;
+    margin-top: 20px auto;
+    text-align: center;
     margin-bottom: 30px;
-    margin-left: 230px;
     font-size: 40px;
 }
 #sobre{
@@ -135,7 +140,6 @@ header{
 }
 
 
-
 /* Habilidades */ 
 
 #habilidade{
@@ -144,20 +148,32 @@ header{
     height: 600px;
 }
 #habilidade-h2{
-    padding: 50px 0 25px 600px;
+    /*padding: 50px 0 25px 600px;*/
+    text-align: center;
+    padding: 50px;
     font-size: 40px;
     color: #fff;
 }
 #habilidade table{
-    margin-left: 400px;
+    margin-left: 500px;
 }
 #habilidade table tr{
     text-align: center;
 }
 #habilidade table tr td{
+    text-align: center;
     padding: 15px;
     background-color: #D8B4E2;
     border-radius: 35px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes example {
+    0%   {background-color: #D8B4E2;}
+    50%  {background-color: #6C2BB6;}
+    100% {background-color: #D8B4E2;}
 }
 
 /*  Projetos */
@@ -166,13 +182,16 @@ header{
     height: 2100px;
 }
 #projetos-titulo{
-    padding: 50px 0 25px 600px;
+    /*padding: 50px 0 25px 600px;*/
+    text-align: center;
+    padding: 50px;
     font-size: 45px;
     color: #fff;
 }
 #projetos-div{
     display: flex;
-    margin: 30px 0px 30px 155px;
+    margin: 30px 0px 30px 250px;
+    text-align: center;
     background-color: #e9009b;
     width: 500px;
     height: 600px;
@@ -213,13 +232,15 @@ header{
     height: 300px;
 }
 #contato-titulo{
-    padding: 50px 0 25px 650px;
+    /*padding: 50px 0 25px 650px;*/
+    text-align: center;
+    padding: 30px;
     font-size: 45px;
 }
 hr{
     color: #131313;
     width: 400px;
-    margin-left:540px;
+    margin-left:600px;
     border: 2px solid;
     margin-bottom: 15px;
 }
